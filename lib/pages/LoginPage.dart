@@ -17,7 +17,6 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           SizedBox(height: 30,),
           Center(child: Container(height:350,width: 350,child: SvgPicture.asset("assets/icons/logindark.svg",))),
-          //Expanded(child: SvgPicture.asset("assets/icons/login.svg",height: 200,width: 200,)),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: GestureDetector(
